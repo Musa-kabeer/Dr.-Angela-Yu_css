@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.home-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background.jpg");
+  object-fit: cover;
+}
+
+.techonology-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background-technology.jpg");
+  object-fit: cover;
+}
+
+.destination-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background-destination.jpg");
+  object-fit: cover;
+}
+
+.crew-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/background-crew.jpg");
+  object-fit: cover;
+}
+
+nav {
+  position: relative;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px;
+  margin: 2rem 2rem;
+}
+
+.line {
+  width: 35%;
+  height: 4px;
+  background-color: #ffffff31;
+  position: absolute;
+  left: 11rem;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  height: 50px;
+  background: #181717a9;
+  padding: 0 4rem;
+  cursor: pointer;
+}
+
+li:hover {
+  transition: all 0.4s ease-in-out, transform 1ms;
+  text-align: center;
+  padding: 0.5rem 0.6rem;
+  background: #424241;
+  border-radius: 4px;
+}
+
+.home-body {
+  width: 80%;
+  height: 60%;
+  margin: 7rem auto;
+  display: flex;
+}
+
+.home-text {
+  width: 50%;
+}
+
+.home-text h4 {
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 4.5rem;
+}
+
+span {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.home-text p {
+  font-size: 13px;
+  width: 350px;
+  line-height: 1.2rem;
+}
+
+.home-gif {
+  position: relative;
+}
+
+.explore {
+  position: absolute;
+  top: 7rem;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #ffff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #1d1d1d;
+}
